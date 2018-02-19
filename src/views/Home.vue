@@ -65,7 +65,7 @@
 <script lang="ts">
     import {Component, Vue} from 'vue-property-decorator';
     import addMonths from 'date-fns/add_months';
-    const serverURL = 'http://localhost:8888';
+    const serverURL = 'http://api.rollouthouston.com';
     @Component({
         components: {}
     })
